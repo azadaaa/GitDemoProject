@@ -1,5 +1,6 @@
 package ArrayAvgofNumbers;
 
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -18,11 +19,11 @@ public class ArrayAvgofNumbers {
          * present in the array
          */
         double average = total / arr.length;
-        
+
         /* This is used for displaying the formatted output
          * if you give %.4f then the output would have 4 digits
          * after decimal point.
          */
         System.out.format("The average is: %.3f", average);
     }
-}
+} 
